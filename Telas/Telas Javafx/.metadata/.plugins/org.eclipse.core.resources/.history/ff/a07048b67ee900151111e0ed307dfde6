@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFX.ControllerFuncionario">
+   <children>
+      <Pane fx:id="pn_Funcionarios" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="780.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="49.0" layoutY="200.0" prefHeight="20.0" prefWidth="45.0" text="Nome:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tx_Nome" layoutX="101.0" layoutY="198.0" promptText="Nome" />
+            <TextField fx:id="tx_Sobrenome" layoutX="101.0" layoutY="230.0" promptText="Sobrenome" />
+            <TextField fx:id="tx_CPF" layoutX="102.0" layoutY="349.0" />
+            <Label layoutX="16.0" layoutY="229.0" text="Sobrenome:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="62.0" layoutY="353.0" text="CPF:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tx_Codigo" editable="false" focusTraversable="false" layoutX="102.0" layoutY="167.0" prefHeight="25.0" prefWidth="64.0" text="00789" />
+            <Label layoutX="44.0" layoutY="169.0" text="Codigo:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="352.0" layoutY="205.0" text="CEP:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="31.0" layoutY="381.0" text="Telefone:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tx_Telefone" layoutX="102.0" layoutY="379.0" />
+            <TextField fx:id="tx_Celular" layoutX="102.0" layoutY="409.0" />
+            <Label layoutX="42.0" layoutY="411.0" text="Celular:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <Separator layoutX="284.0" layoutY="200.0" orientation="VERTICAL" prefHeight="208.0" prefWidth="6.0" />
+            <TextField fx:id="tx_CEP" layoutX="388.0" layoutY="201.0" />
+            <TextField fx:id="tx_Logradouro" layoutX="389.0" layoutY="236.0" />
+            <Label layoutX="305.0" layoutY="239.0" text="Logradouro:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="326.0" layoutY="276.0" text="Numero:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tx_Numero" layoutX="388.0" layoutY="272.0" prefHeight="25.0" prefWidth="64.0" />
+            <Label layoutX="340.0" layoutY="313.0" text="Bairro:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tx_Bairro" layoutX="388.0" layoutY="308.0" />
+            <TextField fx:id="tx_Cidade" layoutX="388.0" layoutY="345.0" />
+            <Label layoutX="336.0" layoutY="347.0" text="Cidade:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tx_Estado" layoutX="388.0" layoutY="382.0" />
+            <Label layoutX="337.0" layoutY="384.0" text="Estado:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="bt_Ajuda" layoutX="722.0" layoutY="464.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="37.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);; -fx-border-color: linear-gradient(#E5D120,#EEDC42);;" text="?" textFill="#e1e1e1">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Separator layoutX="24.0" layoutY="156.0" prefHeight="3.0" prefWidth="246.0" />
+            <Separator layoutX="310.0" layoutY="156.0" prefHeight="3.0" prefWidth="246.0" />
+            <Separator layoutX="58.0" layoutY="446.0" prefHeight="3.0" prefWidth="664.0" />
+            <Label layoutX="89.0" layoutY="126.0" text="Informações pessoais." />
+            <Label layoutX="388.0" layoutY="128.0" text="Endereço." />
+            <Label fx:id="lb_Titulo" layoutX="25.0" layoutY="16.0" style="-fx-text-fill: linear-gradient(#666666,#777777);" text="Funcionarios - Consulta" textFill="#5e5e5e">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Separator layoutX="62.0" layoutY="59.0" prefHeight="3.0" prefWidth="641.0" />
+            <Button fx:id="bt_inferior_dir" layoutX="401.0" layoutY="461.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="122.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Cancelar" textFill="#e1e1e1">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_inferior_esq" layoutX="257.0" layoutY="461.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="136.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Salvar" textFill="#e1e1e1">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="lb_Busca" layoutX="62.0" layoutY="80.0" text="Informe o nome ou CPF:" />
+            <TextField fx:id="tx_Busca" layoutX="206.0" layoutY="76.0" prefHeight="25.0" prefWidth="403.0" />
+            <Button fx:id="bt_Buscar" layoutX="617.0" layoutY="70.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="64.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Buscar" textFill="#e1e1e1">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_Novo" layoutX="311.0" layoutY="18.0" mnemonicParsing="false" onAction="#bt_Novo_Selected" prefHeight="20.0" prefWidth="122.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Novo" textFill="#e1e1e1">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_Alterar" layoutX="434.0" layoutY="18.0" mnemonicParsing="false" onAction="#bt_Alterar_Selected" prefHeight="20.0" prefWidth="122.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Alterar" textFill="#e1e1e1">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_Consultar" layoutX="557.0" layoutY="18.0" mnemonicParsing="false" onAction="#bt_Consultar_Selected" prefHeight="20.0" prefWidth="122.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Consultar" textFill="#e1e1e1">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_Excluir" layoutX="123.0" layoutY="461.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="136.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Excluir" textFill="#e1e1e1">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Pane fx:id="pn_Detalhe_inf" layoutY="513.0" prefHeight="17.0" prefWidth="780.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);;" />
+            <ComboBox fx:id="cb_Sexo" layoutX="102.0" layoutY="261.0" prefWidth="150.0" />
+            <Label layoutX="58.0" layoutY="264.0" text="Sexo:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="293.0" text="Data/Nasc:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tx_CPF1" layoutX="102.0" layoutY="291.0" />
+            <Label layoutX="66.0" layoutY="324.0" text="RG:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tx_CPF2" layoutX="102.0" layoutY="320.0" />
+            <Separator layoutX="574.0" layoutY="199.0" orientation="VERTICAL" prefHeight="208.0" prefWidth="0.0" />
+            <Separator layoutX="594.0" layoutY="157.0" prefHeight="3.0" prefWidth="173.0" />
+            <Label layoutX="608.0" layoutY="128.0" text="Informaçoes de funcionario." />
+            <Label layoutX="603.0" layoutY="195.0" text="Cargo:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="cb_Sexo1" layoutX="651.0" layoutY="192.0" prefHeight="25.0" prefWidth="107.0" />
+            <TextField fx:id="tx_Numero1" layoutX="651.0" layoutY="222.0" prefHeight="25.0" prefWidth="107.0" />
+            <Label layoutX="598.0" layoutY="226.0" text="Salario:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="620.0" layoutY="256.0" text="PIS:" textFill="#464646">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tx_Numero11" layoutX="651.0" layoutY="252.0" prefHeight="25.0" prefWidth="107.0" />
+            <Pane layoutX="632.0" layoutY="290.0" prefHeight="120.0" prefWidth="122.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="120.0" fitWidth="122.0" pickOnBounds="true" style="-fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5); -fx-background-color: white;">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <image>
+                        <Image url="@../../perfilImage.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="47.0" layoutY="98.0" text="Foto" textFill="#515151">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

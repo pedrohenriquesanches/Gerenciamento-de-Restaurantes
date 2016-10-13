@@ -1,0 +1,63 @@
+package javaFX;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
+
+public class ControllerLogin {
+
+    @FXML
+    private ResourceBundle resources;
+
+    @FXML
+    private URL location;
+
+    @FXML
+    private Pane pn_Login;
+
+    @FXML
+    private Button bt_Entrar;
+
+    @FXML
+    private TextField tx_Usuario;
+
+    @FXML
+    private TextField tx_Senha;
+
+    @FXML
+    private Label lb_Fechar;
+
+    @FXML
+    void bt_Entrar_Selected(ActionEvent event) {
+
+    	if(tx_Usuario.getText().equals("gerente") && tx_Senha.getText().equals("123")){
+    		;
+    		LoaderFXML l = new LoaderFXML();
+    		l.setNome("Principal.fxml");
+    		try {
+				l.start(new Stage());
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+    	}
+    }
+
+    @FXML
+    void initialize() {
+        assert pn_Login != null : "fx:id=\"pn_Login\" was not injected: check your FXML file 'Login.fxml'.";
+        assert bt_Entrar != null : "fx:id=\"bt_Entrar\" was not injected: check your FXML file 'Login.fxml'.";
+        assert tx_Usuario != null : "fx:id=\"tx_Usuario\" was not injected: check your FXML file 'Login.fxml'.";
+        assert tx_Senha != null : "fx:id=\"tx_Senha\" was not injected: check your FXML file 'Login.fxml'.";
+        assert lb_Fechar != null : "fx:id=\"lb_Fechar\" was not injected: check your FXML file 'Login.fxml'.";
+
+    }
+}
+

@@ -1,0 +1,987 @@
+!SESSION 2016-03-13 02:29:57.285 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 02:32:02.324
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 02:32:13.825
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 02:32:52.808
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 02:34:00.882 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Users\douglas\Desktop\fastwaiter\FastApp -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 02:34:14.131
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 02:34:14.201
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-13 02:35:19.349 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 02:35:40.215
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 02:35:40.354
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 02:37:17.576
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 04:30:45.592 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 04:31:01.341
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 04:31:04.883
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 04:31:10.469
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 11:08:30.847 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 11:08:46.346
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 11:08:50.142
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 11:08:52.494
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 12:33:43.555 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 12:33:58.466
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 12:34:02.506
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 12:34:07.800
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 12:46:14.936 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 12:46:27.982
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 12:46:31.780
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 12:46:38.304
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 13:06:28.835 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 13:06:42.139
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 13:06:45.995
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 13:06:52.739
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 14:49:38.552 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 14:49:51.021
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 14:49:55.108
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 14:50:00.877
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 15:39:29.530 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 15:39:50.107
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 15:39:53.992
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 15:40:00.678
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 16:25:52.360 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 16:26:07.867
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 16:26:12.702
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 16:26:18.724
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-13 18:47:20.554 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 18:50:37.370
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 18:50:41.213
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-13 18:50:43.733
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+
+!ENTRY org.eclipse.ui 4 4 2016-03-13 21:52:51.256
+!MESSAGE Save All Failed
+
+!ENTRY org.eclipse.ui 2 0 2016-03-13 21:52:51.537
+!MESSAGE Save All Failed
+!STACK 0
+java.lang.IllegalArgumentException: Illegal value: -1
+	at org.eclipse.core.internal.resources.Resource.revertModificationStamp(Resource.java:1618)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.commitFileBufferContent(ResourceTextFileBuffer.java:403)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.commit(ResourceFileBuffer.java:327)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.save(DocumentAdapter.java:472)
+	at org.eclipse.jdt.internal.core.CommitWorkingCopyOperation.executeOperation(CommitWorkingCopyOperation.java:123)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:794)
+	at org.eclipse.jdt.internal.core.CompilationUnit.commitWorkingCopy(CompilationUnit.java:391)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.commitWorkingCopy(CompilationUnitDocumentProvider.java:1378)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$4.execute(CompilationUnitDocumentProvider.java:1458)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:132)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:70)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:108)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:130)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:75)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:65)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:456)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:772)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5076)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1244)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1298)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7209)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:216)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:357)
+	at org.eclipse.ui.internal.SaveablesList$3.run(SaveablesList.java:665)
+	at org.eclipse.ui.internal.SaveableHelper$5.run(SaveableHelper.java:285)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:463)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:371)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2156)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2152)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:293)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:675)
+	at org.eclipse.ui.internal.WorkbenchPage.saveAll(WorkbenchPage.java:3642)
+	at org.eclipse.ui.internal.Workbench.saveAllEditors(Workbench.java:1378)
+	at org.eclipse.ui.internal.Workbench.saveAllEditors(Workbench.java:1357)
+	at org.eclipse.jdt.ui.refactoring.RefactoringSaveHelper.saveEditors(RefactoringSaveHelper.java:137)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.canActivate(RefactoringStarter.java:56)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:33)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMoveStarter.run(ReorgMoveStarter.java:80)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.handleDropMove(SelectionTransferDropAdapter.java:283)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.performDrop(SelectionTransferDropAdapter.java:220)
+	at org.eclipse.jdt.internal.ui.dnd.JdtViewerDropAdapter.drop(JdtViewerDropAdapter.java:246)
+	at org.eclipse.jface.util.DelegatingDropAdapter$3.run(DelegatingDropAdapter.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.util.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:216)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:91)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:788)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:456)
+	at org.eclipse.swt.dnd.DropTarget.Drop_64(DropTarget.java:392)
+	at org.eclipse.swt.dnd.DropTarget$3.method6(DropTarget.java:260)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:119)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 4 2016-03-13 21:53:18.666
+!MESSAGE Save All Failed
+
+!ENTRY org.eclipse.ui 2 0 2016-03-13 21:53:18.983
+!MESSAGE Save All Failed
+!STACK 0
+java.lang.IllegalArgumentException: Illegal value: -1
+	at org.eclipse.core.internal.resources.Resource.revertModificationStamp(Resource.java:1618)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.commitFileBufferContent(ResourceTextFileBuffer.java:403)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.commit(ResourceFileBuffer.java:327)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.save(DocumentAdapter.java:472)
+	at org.eclipse.jdt.internal.core.CommitWorkingCopyOperation.executeOperation(CommitWorkingCopyOperation.java:123)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:794)
+	at org.eclipse.jdt.internal.core.CompilationUnit.commitWorkingCopy(CompilationUnit.java:391)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.commitWorkingCopy(CompilationUnitDocumentProvider.java:1378)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$4.execute(CompilationUnitDocumentProvider.java:1458)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:132)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:70)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:108)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:130)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:75)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:65)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:456)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:772)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5076)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1244)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1298)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7209)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:216)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:357)
+	at org.eclipse.ui.internal.SaveablesList$3.run(SaveablesList.java:665)
+	at org.eclipse.ui.internal.SaveableHelper$5.run(SaveableHelper.java:285)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:463)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:371)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2156)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2152)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:293)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:675)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:632)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:617)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:449)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:405)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:355)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:350)
+	at org.eclipse.ui.internal.WorkbenchWindow$7.save(WorkbenchWindow.java:587)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.savePart(PartServiceImpl.java:1342)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1277)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$4(StackRenderer.java:1260)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$11.close(StackRenderer.java:1145)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1921)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:335)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 4 2016-03-13 21:53:29.160
+!MESSAGE Save Failed
+
+!ENTRY org.eclipse.ui 2 0 2016-03-13 21:53:29.217
+!MESSAGE Save Failed
+!STACK 0
+java.lang.IllegalArgumentException: Illegal value: -1
+	at org.eclipse.core.internal.resources.Resource.revertModificationStamp(Resource.java:1618)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.commitFileBufferContent(ResourceTextFileBuffer.java:403)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.commit(ResourceFileBuffer.java:327)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.save(DocumentAdapter.java:472)
+	at org.eclipse.jdt.internal.core.CommitWorkingCopyOperation.executeOperation(CommitWorkingCopyOperation.java:123)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:794)
+	at org.eclipse.jdt.internal.core.CompilationUnit.commitWorkingCopy(CompilationUnit.java:391)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.commitWorkingCopy(CompilationUnitDocumentProvider.java:1378)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$4.execute(CompilationUnitDocumentProvider.java:1458)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:132)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:70)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:108)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:130)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:75)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:65)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:456)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:772)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5076)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1244)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1298)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7209)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:216)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:357)
+	at org.eclipse.ui.internal.SaveableHelper$3.run(SaveableHelper.java:201)
+	at org.eclipse.ui.internal.SaveableHelper$5.run(SaveableHelper.java:285)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:463)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:371)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2156)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2152)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:293)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:271)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:148)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3874)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3888)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:54)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1266)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1112)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1164)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1581)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4795)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4676)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SESSION 2016-03-14 12:34:11.804 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 12:35:15.241
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-14 12:35:22.865
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 12:35:27.471
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-14 17:00:02.392 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 17:00:38.561
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-14 17:00:49.066
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 17:01:12.027
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-14 18:52:35.551 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 18:52:48.804
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-14 18:52:52.251
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 18:52:57.192
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-14 20:44:31.792 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 20:45:13.631
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-14 20:45:24.168
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 20:45:38.549
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+
+!ENTRY org.eclipse.ui 4 0 2016-03-14 21:15:02.004
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalStateException: error determining action context
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1266)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1112)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Control.traverse(Control.java:4163)
+	at org.eclipse.swt.widgets.Control.translateTraversal(Control.java:4145)
+	at org.eclipse.swt.widgets.Composite.translateTraversal(Composite.java:1254)
+	at org.eclipse.swt.widgets.Display.translateTraversal(Display.java:4868)
+	at org.eclipse.swt.widgets.Display.filterMessage(Display.java:1284)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.IllegalStateException: error determining action context
+	at org.eclipse.mylyn.internal.context.ui.actions.AbstractInterestManipulationAction.getContext(AbstractInterestManipulationAction.java:138)
+	at org.eclipse.mylyn.internal.context.ui.actions.AbstractInterestManipulationAction.run(AbstractInterestManipulationAction.java:68)
+	at org.eclipse.mylyn.internal.context.ui.actions.RemoveFromContextCommandHandler.execute(RemoveFromContextCommandHandler.java:27)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 45 more
+!SESSION 2016-03-14 21:36:15.070 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 21:36:26.724
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-14 21:36:30.958
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-14 21:36:35.231
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-15 00:45:09.738 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-15 00:45:27.282
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 00:45:27.440
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 00:46:56.180
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-15 00:58:35.096 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 00:59:04.237
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-15 00:59:08.425
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 00:59:24.731
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-15 01:08:03.300 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 01:08:14.742
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-15 01:08:18.670
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 01:08:22.836
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-15 03:26:35.848 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 03:26:47.833
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-15 03:26:51.554
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 03:26:58.584
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-15 04:01:07.943 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 04:01:22.574
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-15 04:01:26.339
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 04:01:33.554
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-15 12:34:13.632 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 12:34:45.281
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-15 12:34:56.476
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 12:35:21.153
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-15 18:45:33.602 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 18:45:55.791
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-15 18:46:00.371
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-15 18:46:05.659
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-16 01:15:09.947 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-16 01:15:30.085
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-16 01:15:36.432
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-16 01:15:43.637
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-16 18:40:49.063 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-03-16 18:41:01.086
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-16 18:41:11.364
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-16 18:41:29.165
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-16 18:41:48.177
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-17 10:58:27.088 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 10:58:45.984
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-17 10:58:55.273
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 10:59:03.407
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-17 14:47:19.553 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 15:02:07.979
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-17 15:02:11.331
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 15:02:13.842
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-17 16:52:35.084 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 16:52:49.727
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-17 16:52:52.892
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 16:52:57.907
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-17 18:31:33.619 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 18:31:56.495
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-17 18:32:04.373
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 18:32:16.015
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-17 19:34:55.454 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 19:35:13.970
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-17 19:35:14.160
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 19:35:24.207
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2016-03-17 21:12:00.178 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-17 21:12:19.254
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\douglas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 21:12:19.498
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-03-17 21:12:35.047
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]

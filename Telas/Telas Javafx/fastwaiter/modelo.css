@@ -1,0 +1,134 @@
+.button{
+-fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5); 
+-fx-background-color: white;
+  
+-fx-text-fill: black;
+
+-fx-background-radius: 0;
+-fx-border-radius: 0;
+-fx-border-color: white; 
+}
+
+.button:hover {
+  
+}
+
+.button:pressed {
+    
+}
+
+.button:focused{
+    
+ 
+	
+
+}
+
+
+#bt_Inicio {          
+    -fx-background-image: url("homIco.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27;  
+}
+
+#bt_Inicio:focused {
+    -fx-background-image: url("homIco2.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27;  
+}
+
+#bt_Clientes{
+    -fx-background-image: url("ClientesIco.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Clientes:focused {
+    -fx-background-image: url("ClientesIco2.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Funcionarios{
+    -fx-background-image: url("FuncionariosIco.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Funcionarios:focused{
+    -fx-background-image: url("FuncionariosIco2.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Fornecedores{
+    -fx-background-image: url("FornecedoresIco.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Fornecedores:focused{
+    -fx-background-image: url("FornecedoresIco2.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+
+
+#bt_Produtos{
+    -fx-background-image: url("ProdutoIco.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Produtos:focused{
+    -fx-background-image: url("ProdutoIco2.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Mesas{
+    -fx-background-image: url("MesasIco.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Mesas:focused{
+    -fx-background-image: url("MesasIco2.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Relatorios{
+    -fx-background-image: url("RelatoriosIco.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#bt_Relatorios:focused{
+    -fx-background-image: url("RelatoriosIco2.png");    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:20 14; 
+    -fx-background-size:30 27; 
+}
+
+#pn_logo {
+-fx-background-image: url("waiter2.png");
+    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:12 14; 
+    -fx-background-size:50 50; 
+}

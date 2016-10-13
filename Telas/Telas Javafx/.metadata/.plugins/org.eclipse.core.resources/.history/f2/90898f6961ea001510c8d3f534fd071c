@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="pn_Mesa" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="780.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFX.ControllerMesa">
+   <children>
+      <Button fx:id="bt_Ajuda" layoutX="722.0" layoutY="464.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="37.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);; -fx-border-color: linear-gradient(#E5D120,#EEDC42);;" text="?" textFill="#e1e1e1">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lb_Titulo" layoutX="65.0" layoutY="16.0" style="-fx-text-fill: linear-gradient(#666666,#777777);" text="Mesas - Ambiente" textFill="#5e5e5e">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Separator layoutX="62.0" layoutY="63.0" prefHeight="3.0" prefWidth="641.0" />
+      <Button fx:id="bt_inferior_dir" layoutX="401.0" layoutY="461.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="122.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Cancelar" textFill="#e1e1e1">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt_inferior_esq" layoutX="257.0" layoutY="461.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="136.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Salvar" textFill="#e1e1e1">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt_Novo" layoutX="435.0" layoutY="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="122.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Ambiente" textFill="#e1e1e1">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt_Alterar" layoutX="558.0" layoutY="20.0" mnemonicParsing="false" onAction="#bt_Alterar_Selected" prefHeight="20.0" prefWidth="122.0" style="-fx-background-color: #F9F9F9; -fx-border-color: #F9F9F9; -fx-text-fill: #444444; -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);" text="Alterar" textFill="#e1e1e1">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Pane fx:id="pn_Detalhe_inf" layoutY="513.0" prefHeight="17.0" prefWidth="780.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);;" />
+      <Separator layoutX="61.0" layoutY="424.0" prefHeight="3.0" prefWidth="641.0" />
+      <Pane layoutX="62.0" layoutY="74.0" prefHeight="338.0" prefWidth="505.0" style="-fx-background-color: F9F9F9;">
+         <children>
+            <Label fx:id="lb" layoutX="4.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb1" layoutX="42.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb2" layoutX="80.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb3" layoutX="118.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb4" layoutX="156.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb5" layoutX="194.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb6" layoutX="232.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb7" layoutX="270.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb8" layoutX="308.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb9" layoutX="346.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb10" layoutX="4.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb11" layoutX="42.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb12" layoutX="80.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb13" layoutX="118.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb14" layoutX="156.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb15" layoutX="194.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb16" layoutX="232.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb17" layoutX="270.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb18" layoutX="308.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb19" layoutX="346.0" layoutY="38.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb20" layoutX="4.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb21" layoutX="42.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb22" layoutX="80.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb23" layoutX="118.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb24" layoutX="156.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb25" layoutX="194.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb26" layoutX="232.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb27" layoutX="270.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb28" layoutX="308.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb29" layoutX="346.0" layoutY="76.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb30" layoutX="4.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb31" layoutX="42.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb32" layoutX="80.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb33" layoutX="118.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb34" layoutX="156.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb35" layoutX="194.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb36" layoutX="232.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb37" layoutX="270.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb38" layoutX="308.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb39" layoutX="346.0" layoutY="114.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb40" layoutX="4.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb41" layoutX="42.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb42" layoutX="80.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb43" layoutX="118.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb44" layoutX="156.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb45" layoutX="194.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb46" layoutX="232.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb47" layoutX="270.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb48" layoutX="308.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb49" layoutX="346.0" layoutY="152.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb50" layoutX="4.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb51" layoutX="42.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb52" layoutX="80.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb53" layoutX="118.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb54" layoutX="156.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb55" layoutX="194.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb56" layoutX="232.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb57" layoutX="270.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb58" layoutX="308.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb59" layoutX="346.0" layoutY="190.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb60" layoutX="4.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb61" layoutX="42.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb62" layoutX="80.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb63" layoutX="118.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb64" layoutX="156.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb65" layoutX="194.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb66" layoutX="232.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb67" layoutX="270.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb68" layoutX="308.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb69" layoutX="346.0" layoutY="228.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb70" layoutX="4.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb71" layoutX="42.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb72" layoutX="80.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb73" layoutX="118.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb74" layoutX="156.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb75" layoutX="194.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb76" layoutX="232.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb77" layoutX="270.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb78" layoutX="308.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb79" layoutX="346.0" layoutY="266.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb80" layoutX="4.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb81" layoutX="42.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb82" layoutX="80.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb83" layoutX="118.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb84" layoutX="156.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb85" layoutX="194.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb86" layoutX="232.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb87" layoutX="270.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb88" layoutX="308.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb89" layoutX="346.0" layoutY="304.0" opacity="0.57" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: white; -fx-background-radius: 0px; -fx-border-color: #555555; -fx-border-radius: 0px; -fx-border-width: 1;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="rd_Mesa" layoutX="398.0" layoutY="6.0" mnemonicParsing="false" style="-fx-text-fill: #666666;" text="Mesa">
+               <toggleGroup>
+                  <ToggleGroup fx:id="MEsa" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="rd_Cenario" layoutX="398.0" layoutY="30.0" mnemonicParsing="false" style="-fx-text-fill: #666666;" text="Cenario" toggleGroup="$MEsa" />
+            <RadioButton fx:id="rd_Cancelar" layoutX="398.0" layoutY="54.0" mnemonicParsing="false" style="-fx-text-fill: #666666;" text="Cancelar" toggleGroup="$MEsa" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

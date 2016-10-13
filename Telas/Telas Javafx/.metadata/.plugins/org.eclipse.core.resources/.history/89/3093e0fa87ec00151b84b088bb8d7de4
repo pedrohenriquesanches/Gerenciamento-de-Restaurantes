@@ -1,0 +1,14 @@
+package javaFX;
+
+public class Login {
+	public static boolean login = false;
+
+	public void setLogin(boolean value) {
+		this.login = value;
+	}
+
+	public boolean getLogin() {
+
+		return this.login;
+	}
+}

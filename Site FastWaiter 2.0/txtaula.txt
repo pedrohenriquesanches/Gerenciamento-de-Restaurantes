@@ -1,0 +1,25 @@
+Tipo abstrado de dados
+Definição de um conjunto de dados desconhecidos em que o tipo nao e relevante para organização e operação 
+Conjunto de operações sobre estes dados. O funcionamento das operaçoes é desconhecido 
+Toda operaçao possui um desempenho bem definido
+
+Ex: TAD: Pilha 
+Operaçoes:/ descrição/desempenho
+O/mpilhar/Coloca o elemento no topo/O(1)
+e/desempilhar/remove e do topo e o retorna/O(1)
+e/olhar/Apenas retorna e/O(1)
+
+Fila 
+O/emfileirar(e)/Coloca e no final da fila
+e/desenfileirar()/remove o primeiro e da fila
+e/primeiro()/Apenas averigua o primeiro e
+e/ultimo()/Apenas averigua o ultimo e
+
+Desempenho temporal e ospacial(ocupação de memoria).
+
+Como implementar pilha? duas abordagens principais.
+
+
+Competencia: O sistema FastWaiter é agil e possibilita uma facil interação do garçom com o sistema por apresentar uma imterface simples e compacta.
+
+Conforto: Com apenas poucas palavras podemos descrever sua capacidade em se manter estavel e seguro, rapido, compacto, simples e seguro.

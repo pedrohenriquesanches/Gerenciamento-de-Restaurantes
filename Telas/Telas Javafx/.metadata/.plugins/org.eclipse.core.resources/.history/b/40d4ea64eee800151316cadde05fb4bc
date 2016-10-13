@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pn_Fundo_Transparent" prefHeight="586.0" prefWidth="999.0" style="-fx-background-color: rgba(255, 255, 255, 0.0);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFX.ControllerPrincipal">
+   <children>
+      <Pane fx:id="pn_Fundo" layoutX="11.0" maxHeight="586.0" maxWidth="987.0" minHeight="581.0" minWidth="903.0" prefHeight="586.0" prefWidth="987.0" style="-fx-background-color: #F0F0F0;">
+         <children>
+            <Button fx:id="bt_Inicio" layoutX="-11.0" layoutY="73.0" mnemonicParsing="false" onAction="#bt_Inicio_Selected" prefHeight="63.0" prefWidth="208.0" stylesheets="@../../modelo.css" text="Inicio" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_Clientes" layoutX="-11.0" layoutY="135.0" mnemonicParsing="false" onAction="#bt_Clientes_Selected" prefHeight="63.0" prefWidth="208.0" stylesheets="@../../modelo.css" text="Clientes" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_Funcionarios" layoutX="-11.0" layoutY="197.0" mnemonicParsing="false" onAction="#bt_Funcionarios_Selected" prefHeight="63.0" prefWidth="208.0" stylesheets="@../../modelo.css" text="Funcionarios" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_Fornecedores" layoutX="-11.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt_Fornecedores_Selected" prefHeight="63.0" prefWidth="208.0" stylesheets="@../../modelo.css" text="Fornecedores" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_Produtos" layoutX="-11.0" layoutY="321.0" mnemonicParsing="false" onAction="#bt_Produtos_Selected" prefHeight="63.0" prefWidth="208.0" stylesheets="@../../modelo.css" text="Produtos" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_Mesas" layoutX="-11.0" layoutY="383.0" mnemonicParsing="false" onAction="#bt_Mesas_Selected" prefHeight="63.0" prefWidth="208.0" stylesheets="@../../modelo.css" text="Mesas" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font>
+            </Button>
+            <Pane fx:id="pn_Detalhe_sup" layoutX="-11.0" layoutY="-1.0" prefHeight="63.0" prefWidth="999.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);;" stylesheets="@../../modelo.css">
+               <children>
+                  <Label fx:id="lb_Fechar" layoutX="976.0" layoutY="17.0" text="x">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lb_Minimizar" layoutX="953.0" layoutY="20.0" text="-">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button fx:id="bt_Relatorios" layoutX="-11.0" layoutY="445.0" mnemonicParsing="false" onAction="#bt_Relatorios_Selected" prefHeight="63.0" prefWidth="208.0" stylesheets="@../../modelo.css" text="Relatorios" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font>
+            </Button>
+            <Pane fx:id="pn_Troca_Telas" layoutX="208.0" layoutY="62.0" prefHeight="519.0" prefWidth="780.0" style="-fx-background-color: white;">
+               <children>
+                  <Pane fx:id="pn_Detalhe_inf" layoutY="507.0" prefHeight="17.0" prefWidth="780.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);;" stylesheets="@../../modelo.css" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</Pane>

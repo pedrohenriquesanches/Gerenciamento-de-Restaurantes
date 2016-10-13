@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="535.0" style="-fx-background-color: rgba(255, 255, 255, 0.0);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFX.ControllerLogin">
+   <children>
+      <Pane fx:id="pn_Login" opacity="0.99" prefHeight="332.0" prefWidth="535.0" style="-fx-background-color: linear-gradient(#E5D120,#E0D145,#E5D120); -fx-background-radius: 0px; -fx-border-color: white; -fx-border-width: 5;">
+         <children>
+            <Pane layoutX="-67.0" layoutY="-79.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" visible="false" />
+            <Label fx:id="lb_Fechar" layoutX="510.0" layoutY="13.0" prefHeight="17.0" prefWidth="15.0" text=" X" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextField fx:id="tx_Usuario" layoutX="193.0" layoutY="148.0" promptText="Usuario" style="-fx-background-color: white; -fx-text-fill: #888888;" />
+      <PasswordField fx:id="tx_Senha" layoutX="193.0" layoutY="179.0" promptText="Senha" style="-fx-background-color: white; -fx-text-fill: #888888;" />
+      <Button fx:id="bt_Entrar" layoutX="235.0" layoutY="223.0" mnemonicParsing="false" onAction="#bt_Entrar_Selected" prefHeight="32.0" prefWidth="64.0" style="-fx-background-color: transparent; -fx-border-color: #F9F9F9; -fx-text-fill: white;" text="Entrar" textFill="#e1e1e1">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="238.0" layoutY="102.0" text="Login" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Pane layoutX="-102.0" layoutY="-116.0" prefHeight="200.0" prefWidth="200.0" rotate="50.0" style="-fx-background-color: rgba(255, 255, 255, 0.0);" visible="false" />
+   </children>
+</Pane>

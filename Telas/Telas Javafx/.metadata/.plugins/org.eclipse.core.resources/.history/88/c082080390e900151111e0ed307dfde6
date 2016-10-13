@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="pn_Inicio" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="780.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFX.ControllerCliente">
+   <children>
+      <Button fx:id="bt_Ajuda" layoutX="722.0" layoutY="464.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="37.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);; -fx-border-color: linear-gradient(#E5D120,#EEDC42);;" text="?" textFill="#e1e1e1">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Pane fx:id="pn_Detalhe_inf" layoutY="513.0" prefHeight="17.0" prefWidth="780.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);;" />
+      <Slider layoutX="591.0" layoutY="65.0" orientation="VERTICAL" prefHeight="399.0" prefWidth="14.0" />
+      <AreaChart layoutX="18.0" layoutY="42.0" prefHeight="435.0" prefWidth="557.0" title="Grafico de pedidos">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" tickLength="5.0" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" style="-fx-tick-label-fill: #333333;">
+               <tickLabelFont>
+                  <Font size="11.0" />
+               </tickLabelFont>
+            </NumberAxis>
+        </yAxis>
+      </AreaChart>
+      <Pane layoutX="611.0" layoutY="70.0" prefHeight="122.0" prefWidth="141.0">
+         <children>
+            <Pane fx:id="pn_Detalhe_inf1" prefHeight="122.0" prefWidth="6.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);;" />
+            <Label layoutX="14.0" layoutY="6.0" text="Pedido: Prato principal" textFill="#6b6b6b" />
+            <Label layoutX="14.0" layoutY="24.0" text="Garçom: Waldway" textFill="#6b6b6b" />
+            <Label layoutX="15.0" layoutY="41.0" text="Mesa: 12" textFill="#6b6b6b" />
+            <Label layoutX="41.0" layoutY="98.0" text="status:" textFill="#6b6b6b" />
+            <Label layoutX="79.0" layoutY="98.0" text="Pronto" textFill="#2bc31e" />
+            <Label layoutX="14.0" layoutY="58.0" text="19:32" textFill="#6b6b6b" />
+         </children>
+      </Pane>
+      <Pane layoutX="611.0" layoutY="197.0" prefHeight="122.0" prefWidth="141.0">
+         <children>
+            <Pane fx:id="pn_Detalhe_inf11" prefHeight="122.0" prefWidth="6.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);;" />
+            <Label layoutX="14.0" layoutY="6.0" text="Pedido: Prato principal" textFill="#6b6b6b" />
+            <Label layoutX="14.0" layoutY="24.0" text="Garçom: Waldway" textFill="#6b6b6b" />
+            <Label layoutX="15.0" layoutY="41.0" text="Mesa: 07" textFill="#6b6b6b" />
+            <Label layoutX="36.0" layoutY="99.0" text="status:" textFill="#6b6b6b" />
+            <Label layoutX="74.0" layoutY="99.0" text="Em preparo" textFill="#c27e1f" />
+            <Label layoutX="15.0" layoutY="59.0" text="19:27" textFill="#6b6b6b" />
+         </children>
+      </Pane>
+      <Pane layoutX="611.0" layoutY="326.0" prefHeight="122.0" prefWidth="141.0">
+         <children>
+            <Pane fx:id="pn_Detalhe_inf111" prefHeight="122.0" prefWidth="6.0" style="-fx-background-color: linear-gradient(#E5D120,#EEDC42);;" />
+            <Label layoutX="14.0" layoutY="6.0" text="Pedido: Prato principal" textFill="#6b6b6b" />
+            <Label layoutX="14.0" layoutY="24.0" text="Garçom: Waldway" textFill="#6b6b6b" />
+            <Label layoutX="15.0" layoutY="41.0" text="Mesa: 19" textFill="#6b6b6b" />
+            <Label layoutX="36.0" layoutY="99.0" text="status:" textFill="#6b6b6b" />
+            <Label layoutX="74.0" layoutY="99.0" text="Em espera" textFill="#ff2323" />
+            <Label layoutX="14.0" layoutY="58.0" text="19:44" textFill="#6b6b6b" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
