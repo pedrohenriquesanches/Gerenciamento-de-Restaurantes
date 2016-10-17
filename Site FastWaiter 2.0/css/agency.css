@@ -29,7 +29,7 @@ a.active {
 }
 
 a {
-	color: #fed136;
+	color: #000000;
 	background-image: none;
 }
 
@@ -37,7 +37,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #000000;
 }
 
 h1,
@@ -291,14 +291,9 @@ header .intro-text .intro-heading {
 	font-size: 50px;
 	font-weight: 700;
 	line-height: 50px;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
+	
+
+
 }
 
 @media(min-width:768px) {
@@ -533,7 +528,7 @@ section h3.section-subheading {
 
 .timeline .timeline-heading h4 {
     margin-top: 0;
-    color: #FFCC00;
+    color: #000000;
 }
 
 .timeline .timeline-heading h4.subheading {
